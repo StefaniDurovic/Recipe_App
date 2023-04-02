@@ -87,6 +87,7 @@ input {
     width: 300px;
     margin: 5px;
     border: 2px solid #DECDBA;
+    box-shadow: 2px 4px 4px #9F7E69;
 }
 
 .card-img-top {
