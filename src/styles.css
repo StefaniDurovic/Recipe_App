@@ -2,18 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.deco_img {
-    width: 300px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    object-fit:fill;
-    box-shadow: 2px 2px 8px #9F7E69;
-    margin-top: -40px;
-}
-
 hr {
     width: 350px;
     height: 5px;
@@ -40,10 +28,40 @@ h3 {
     font-weight: 300;
 }
 
+h4 {
+    font-size:small;
+    font-weight: 500;
+}
+
+.instructions-word {
+    display: inline-block;
+    padding: 7px 10px;
+    background-color:#9F7E69;
+    opacity: 0.8;
+    color: #F5F580;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
 .main_cover {
     text-align: center;
     background-color: #DECDBA;
     padding: 50px 20px;
+}
+
+.deco_img {
+    width: 300px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit:fill;
+    box-shadow: 2px 2px 8px #9F7E69;
+    margin-top: -40px;
 }
 
 input {
@@ -142,6 +160,7 @@ input {
     color:#F5F580;
     padding: 7px 10px;
     margin-bottom: 20px;
+    box-shadow: 2px 2px 8px #9F7E69;
 }
 
 .modal-link:hover {
